@@ -55,9 +55,10 @@ function ajaxSuccess(result) {
 	var difference_in_days = difference_in_time/ (1000*3600*24);	
 	difference_in_days = Math.round(difference_in_days);	
 	console.log(difference_in_days);
-	if(difference_in_days >= 7){updatedClass = 'yellow'};
-    if(difference_in_days >= 14){updatedClass = 'orange'};
-    if(difference_in_days >= 21){updatedClass = 'red'};
+	if(difference_in_days <= 7){updatedClass = 'green'};
+	if((difference_in_days > 7) && (difference_in_days <=10)){updatedClass = 'yellow'};
+    if((difference_in_days > 10 ) && (difference_in_days <=14)){updatedClass = 'orange'};
+    if(difference_in_days > 14){updatedClass = 'red'};
 	
 	table.append(
 	
