@@ -1,0 +1,49 @@
+{
+  "name": "gitchecker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "atob-lite": "^2.0.0",
+    "before-after-hook": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "btoa-lite": "^1.0.0",
+    "cookie-parser": "^1.4.4",
+    "datatables.net": "^1.10.20",
+    "datatables.net-bs4": "^1.10.20",
+    "datatables.net-buttons": "^1.6.1",
+    "debug": "~2.6.9",
+    "deepmerge": "^4.2.2",
+    "deprecation": "^2.3.1",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "get-stream": "^5.1.0",
+    "http-errors": "~1.6.2",
+    "is-plain-object": "^3.0.0",
+    "is-stream": "^2.0.0",
+    "jquery": "^3.4.1",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
+    "lodash.uniq": "^4.5.0",
+    "luxon": "^1.22.0",
+    "macos-release": "^2.3.0",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "nice-try": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "npm-run-path": "^4.0.1",
+    "octokit-pagination-methods": "^1.1.0",
+    "p-finally": "^2.0.1",
+    "path-key": "^3.1.1",
+    "shebang-command": "^2.0.0",
+    "signal-exit": "^3.0.2",
+    "strip-eof": "^2.0.0",
+    "url-template": "^2.0.8"
+  },
+  "engines": {
+    "node": "8.9",
+    "npm": "5.6"
+  }
+}

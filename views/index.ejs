@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <header>
+    <h1>
+      <%= title %>
+    </h1>
+    <p>Welcome to
+      <%= title %>
+    </p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/> 
+	<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
+  </header>
+
+	
+
+  <div>
+    <button id="getrepos">Get Repositories</button>
+
+    <div id="tablediv">
+      <input class="search" placeholder="Search" />
+      <table>
+        <tr>
+        <th><button class="sort" data-sort="name">Name</button></th>
+        <th><button class="sort" data-sort="lastact">Last Activity</button></th>
+        <th><button class="sort" data-sort="age">age</button></th>
+        <th><button class="sort" data-sort="file">file</button></th>
+        <th><button class="sort" data-sort="link">Link</button></th>
+        <td>
+      </table>
+
+      <table id="maintable" class="hidden list">
+		<thead>
+			<th class="sorting_asc" tabindex="0" rowspan="1" colspan="1" aria-label="Repository: activate to sort column descending" style="width: 132px;" aria-sort="ascending">Repository</th>
+			<th>Name</th>
+			<th>Lastact</th>
+			<th>Age</th>
+			<th>Open Issues</th>
+			<th>Link to repository</th>
+		</thead>
+		<tbody>
+		</tbody>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="/javascripts/main.js"></script>
+  </footer>
+</body>
+</html>
