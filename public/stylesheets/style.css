@@ -17,14 +17,13 @@ a {
   color: #00B7FF;
 }
 .green  {
-  background-color: green;opacity:0.6;
-
+  background-color: green;
 }
 .yellow  {
-  background-color: yellow;opacity:0.6;
+  background-color: yellow
 }
 .orange {
-  background-color: orange;opacity:0.6;
+  background-color: orange;
 }
 .red{
   background-color: red;

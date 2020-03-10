@@ -37,7 +37,10 @@ function ajaxSuccess(result) {
 	
 	//Check the open issues section	
 	openClass = '';
-	if(element.open_issues_count >0){openClass='red'};
+	if(element.open_issues_count === 0){openClass='green'};
+	if((element.open_issues_count > 0) && (element.open_issues_count <=2)){openClass = 'yellow'};
+	if(element.open_issues_count === 3){openClass='orange'};
+    if(element.open_issues_count >4){openClass = 'red'};
 	
     
 	updatedClass = '';
