@@ -13,7 +13,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Repository List' });
+  res.render('index', { title: 'CM4105: Test driven development with Web Technologies' });
 });
 
 module.exports = router;
